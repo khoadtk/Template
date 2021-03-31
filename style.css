@@ -48,6 +48,7 @@ a{
     text-decoration: none;
 }
 .app{
+    overflow: hidden;
     margin: 0 auto;
     background-color: var(--white--color);
     font-size: 1.4rem;
@@ -80,6 +81,7 @@ a{
     display: flex;
     justify-content: space-between;
     width: var(--max--width);
+    padding: 0 2rem
 }
 .header__nav--logo{
     font-size: 4.8rem;
@@ -268,7 +270,6 @@ a{
     margin: 1.5rem 0;
     width: 100%;
     display: flex;
-    height: 36rem;
     justify-content: space-between;
     
 }

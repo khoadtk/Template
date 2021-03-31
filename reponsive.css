@@ -105,5 +105,28 @@
     /* Mobile */
     
 @media (max-width:739px) {
+    :root {
+        --max--width:450px;
+    }
+    .main__top{
+        padding-top:11rem;
+    }
+    .main__top--text{
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .main__top--text2{
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .main__btn{
+        margin-top: 5rem;
+    }
+    .main__grid--left{
+        display: none;
+    }
+    .main__grid--right{
+        width: 100%;
+    }
     
 }
