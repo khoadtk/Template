@@ -160,6 +160,7 @@ a{
     border-radius: 50%;
 }
 .main__btn i{
+    color: var(--primary--color);
     font-size: 6rem;
 }
 .main__bottom{
